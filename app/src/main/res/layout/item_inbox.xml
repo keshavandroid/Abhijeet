@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/_5sdp">
+
+ <de.hdodenhof.circleimageview.CircleImageView
+     android:id="@+id/civ_profile"
+     android:layout_width="@dimen/_60sdp"
+     android:layout_height="@dimen/_60sdp"
+     android:src="@drawable/ic_user"
+     app:civ_circle_background_color="@color/colorBlack"
+     app:layout_constraintLeft_toLeftOf="parent"
+     app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/civ_profile"
+        app:layout_constraintBottom_toTopOf="@id/tvMessage"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="@font/roboto_medium"
+        tools:text="Aditya Sharma"/>
+    <com.vanniktech.emoji.EmojiTextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/tv_user_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:textColor="@color/colorGray"
+        android:textSize="@dimen/_8ssp"
+        tools:text="Fishing"
+        app:layout_constraintTop_toBottomOf="@id/tv_user_name"/>
+    <TextView
+        android:id="@+id/tvMsgCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="@dimen/_12sdp"
+        android:textSize="@dimen/_8sdp"
+        android:background="@drawable/bg_msg_count"
+        android:fontFamily="@font/roboto_light"
+        tools:text="1"
+        android:padding="@dimen/_2sdp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toLeftOf="@id/tvMsgCount"
+        app:layout_constraintTop_toTopOf="@id/tvMsgCount"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:textSize="@dimen/_10ssp"
+        tools:text="3 days"/>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_1sdp"
+    android:background="@color/colorGray"
+    android:layout_marginTop="@dimen/_8sdp"
+    android:layout_marginEnd="@dimen/_8sdp"
+    android:layout_marginStart="@dimen/_8sdp"
+    app:layout_constraintTop_toBottomOf="@id/civ_profile" />
+</androidx.constraintlayout.widget.ConstraintLayout>
