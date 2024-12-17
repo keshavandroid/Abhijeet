@@ -139,10 +139,11 @@ class MainActivity : AppCompatActivity(), MainNavigationListener {
         val badgeLayout: FrameLayout.LayoutParams =
             FrameLayout.LayoutParams(badge?.layoutParams!!).apply {
                 gravity = Gravity.CENTER_HORIZONTAL
-                topMargin = resources.getDimension(R.dimen.design_bottom_navigation_margin).toInt()
+               // topMargin = resources.getDimension(R.dimen.design_bottom_navigation_margin).toInt()
+                topMargin = resources.getDimension(R.dimen.ten_dp).toInt()
 
                 // <dimen name="bagde_left_margin">8dp</dimen>
-                leftMargin = resources.getDimension(R.dimen._8sdp).toInt()
+                leftMargin = resources.getDimension(R.dimen.nine_dp).toInt()
             }
 
         // add view to bottom bar with layout parameter

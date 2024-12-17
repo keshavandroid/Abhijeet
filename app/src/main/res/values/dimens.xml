@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+	<dimen name="mcv_arrow_padding">4dp</dimen>
+	<dimen name="mcv_arrow_margin">4dp</dimen>
+
+	<dimen name="zero_dp">0dp</dimen>
+	<dimen name="sixteen_dp">16dp</dimen>
+	<dimen name="twenty_four_dp">24dp</dimen>
+	<dimen name="twenty_dp">20dp</dimen>
+	<dimen name="thirty_six_dp">36dp</dimen>
+	<dimen name="thirty_four_dp">34dp</dimen>
+	<dimen name="thirty_two_dp">32dp</dimen>
+	<dimen name="thirty_dp">30dp</dimen>
+	<dimen name="one_hundrad_one_seven_dp" tools:ignore="MissingDefaultResource">117dp</dimen>
+	<dimen name="one_hundred_forty_two">142dp</dimen>
+	<dimen name="five_four_eight_dp">548dp</dimen>
+	<dimen name="one_one_five_dp">115dp</dimen>
+	<dimen name="sixty_four_dp">64dp</dimen>
+	<dimen name="forty_dp">40dp</dimen>
+	<dimen name="forty_five_dp">45dp</dimen>
+	<dimen name="forty_eight_dp">48dp</dimen>
+	<dimen name="fifty_two_dp">52dp</dimen>
+	<dimen name="fifty_four_dp">54dp</dimen>
+	<dimen name="fifty_six_dp">56dp</dimen>
+
+
+	<dimen name="fifty_dp">50dp</dimen>
+	<dimen name="fifty_five_dp">55dp</dimen>
+	<dimen name="fourty_eight">48dp</dimen>
+
+	<dimen name="sixty_dp">60dp</dimen>
+	<dimen name="ten_dp">10dp</dimen>
+	<dimen name="one_dp">1dp</dimen>
+	<dimen name="eighty_eight_dp">88dp</dimen>
+	<dimen name="twenty_eight_dp">28dp</dimen>
+	<dimen name="eight_dp">8dp</dimen>
+	<dimen name="four_dp">4dp</dimen>
+	<dimen name="six_dp">6dp</dimen>
+	<dimen name="twelve_dp">12dp</dimen>
+	<dimen name="eighteen_dp">18dp</dimen>
+	<dimen name="nineteen_dp">19dp</dimen>
+	<dimen name="ninety_dp">90dp</dimen>
+	<dimen name="sixty_seven_dp">67dp</dimen>
+	<dimen name="seventy_five_dp">75dp</dimen>
+	<dimen name="seventy_four_dp">74dp</dimen>
+	<dimen name="seven_dp" tools:ignore="MissingDefaultResource">7dp</dimen>
+
+	<dimen name="five_dp">5dp</dimen>
+	<dimen name="two_dp">2dp</dimen>
+	<dimen name="nine_dp">9dp</dimen>
+	<dimen name="one_eighty_dp">180dp</dimen>
+	<dimen name="one_twenty_dp">120dp</dimen>
+	<dimen name="two_hundred_twenty_two_dp">222dp</dimen>
+	<dimen name="fifteen_dp">15dp</dimen>
+	<dimen name="eighty_dp">80dp</dimen>
+	<dimen name="eighty_five_dp">85dp</dimen>
+
+	<dimen name="twenty_four_sp">24sp</dimen>
+	<dimen name="twenty_sp">20sp</dimen>
+	<dimen name="twenty_eight_sp">28sp</dimen>
+	<dimen name="fifteen_sp">15sp</dimen>
+	<dimen name="eleven_sp">11sp</dimen>
+	<dimen name="nineteen_sp">19sp</dimen>
+	<dimen name="seventeen_sp">17sp</dimen>
+	<dimen name="sixteen_sp">16sp</dimen>
+	<dimen name="minus_two_sp">-2sp</dimen>
+	<dimen name="one_sp">1sp</dimen>
+	<dimen name="seven_sp">7sp</dimen>
+	<dimen name="eight_sp">8sp</dimen>
+	<dimen name="nine_sp">9sp</dimen>
+	<dimen name="ten_sp">10sp</dimen>
+	<dimen name="twelve_sp">12sp</dimen>
+	<dimen name="thirteen_sp">13sp</dimen>
+	<dimen name="eighteen_sp">18sp</dimen>
+	<dimen name="fourteen_sp">14sp</dimen>
+
+
+	<dimen name="row_height">44dp</dimen>
+	<dimen name="day_label_size_events_enabled">30dp</dimen>
+	<dimen name="day_label_focus_size_events_enabled">34dp</dimen>
+	<dimen name="day_label_size_events_disabled">38dp</dimen>
+	<dimen name="day_label_focus_size_events_disabled">42dp</dimen>
+	<dimen name="abbreviation_text_size_max">14sp</dimen>
+
+	<dimen name="height_month_title">0dp</dimen>
+	<dimen name="height_week_day_header">32dp</dimen>
+
+	<!--size-->
+	<dimen name="text_calendar_padding">16dp</dimen>
+	<dimen name="text_calendar_date">16sp</dimen>
+	<dimen name="text_month_title">16sp</dimen>
+	<dimen name="text_week_day_header">12sp</dimen>
+	<dimen name="thrteen_dp">13sp</dimen>
+
+	<!--width-->
+	<dimen name="width_circle_stroke">1dp</dimen>
+
+	<!--miscellaneous-->
+	<dimen name="dimen_date_text_view">64dp</dimen>
+	<dimen name="radius_event_dot">2dp</dimen>
+	<dimen name="padding_top_month_title">8dp</dimen>
+
+	<dimen name="activity_horizontal_margin">16dp</dimen>
+	<dimen name="activity_vertical_margin">16dp</dimen>
+
+
+	<dimen name="datepicker_view_animator_height">50dp</dimen>
+	<dimen name="datepicker_year_label_height">50dp</dimen>
+	<dimen name="one_hundred_sixty_dp">160dp</dimen>
+	<dimen name="two_hundred_forty_dp">240dp</dimen>
+</resources>

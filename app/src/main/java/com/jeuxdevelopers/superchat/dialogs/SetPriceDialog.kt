@@ -13,9 +13,7 @@ import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import com.jeuxdevelopers.superchat.R
 import com.jeuxdevelopers.superchat.databinding.SetPriceDialogBinding
-import com.jeuxdevelopers.superchat.models.UserModel
-import kotlinx.android.synthetic.main.set_price_dialog.view.*
-import java.util.concurrent.atomic.DoubleAccumulator
+import com.jeuxdevelopers.superchat.models.UserModel import java.util.concurrent.atomic.DoubleAccumulator
 
 class SetPriceDialog(context: Context, private val userModel: UserModel) : Dialog(context) {
     companion object {

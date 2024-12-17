@@ -2,18 +2,19 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
-    id 'kotlin-android-extensions'
+    id 'kotlin-parcelize'
     id 'com.google.gms.google-services'
     id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
-    compileSdk 31
+    compileSdk 34
+    namespace = "com.jeuxdevelopers.superchat"
 
     defaultConfig {
         applicationId "com.jeuxdevelopers.superchat"
         minSdk 21
-        targetSdk 31
+        targetSdk 34
         versionCode 1
         versionName "1.0.0(beta)"
 
