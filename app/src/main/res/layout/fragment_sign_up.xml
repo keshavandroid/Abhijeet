@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:scrollbars="none"
+    android:background="@drawable/background"
     tools:context=".fragments.auth.signup.SignUpFragment">
 
 
@@ -23,7 +24,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="109dp"
             android:layout_marginTop="58dp"
-            android:src="@drawable/img_logo" />
+            android:src="@drawable/appicon" />
 
 
         <!--        <FrameLayout-->
@@ -55,7 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/_250sdp"
             android:layout_marginTop="@dimen/_10sdp"
-            android:background="@drawable/bg_search"
+            android:background="@drawable/bg_input"
             android:orientation="vertical"
             android:paddingHorizontal="@dimen/_15sdp">
 
@@ -66,6 +67,7 @@
                 android:gravity="center"
                 android:lineSpacingExtra="2sp"
                 android:text="Sign Up"
+                android:textColor="@color/colorBlack"
                 android:textSize="@dimen/_24ssp"
                 android:fontFamily="@font/roboto_bold"
                 android:layout_marginTop="@dimen/_10sdp"/>
