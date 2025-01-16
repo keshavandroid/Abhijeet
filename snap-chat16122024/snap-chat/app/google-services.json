@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "438404227884",
+    "project_id": "superchat-e60f6",
+    "storage_bucket": "superchat-e60f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438404227884:android:6e722ff285a04313754289",
+        "android_client_info": {
+          "package_name": "com.jeuxdevelopers.superchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438404227884-ce1hvfg4r9le809u4c61jt3argj1va9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jeuxdevelopers.superchat",
+            "certificate_hash": "8f296b9e863a0e2acd51984356dcbb40401a5ad0"
+          }
+        },
+        {
+          "client_id": "438404227884-n7e6bf61bviq4nvp1td59hfnp521ep0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5LFlHm9E2sseFCCfAJM8FMXQB0w7I0jk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438404227884-n7e6bf61bviq4nvp1td59hfnp521ep0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.jeuxdevelopers.superchat.fragments.main.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_otherProfileFragment"
+            app:destination="@id/otherProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inboxFragment"
+        android:name="com.jeuxdevelopers.superchat.fragments.main.inbox.InboxFragment"
+        android:label="fragment_inbox"
+        tools:layout="@layout/fragment_inbox" >
+        <action
+            android:id="@+id/action_inboxFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_inboxFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.jeuxdevelopers.superchat.fragments.main.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/buyCreditFragment"
+        android:name="com.jeuxdevelopers.superchat.fragments.others.buycredit.BuyCreditFragment"
+        android:label="fragment_buy_credit"
+        tools:layout="@layout/fragment_buy_credit" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.jeuxdevelopers.superchat.fragments.others.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_setPaymentFragment"
+            app:destination="@id/setPaymentFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_buyCreditFragment"
+            app:destination="@id/buyCreditFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_privacyPolicyFragment"
+            app:destination="@id/privacyPolicyFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_termsOfUseFragment"
+            app:destination="@id/termsOfUseFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_helpFragment"
+            app:destination="@id/helpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/setPaymentFragment"
+        android:name="com.jeuxdevelopers.superchat.fragments.others.setPayment.SetPaymentFragment"
+        android:label="SetPaymentFragment"
+        tools:layout="@layout/fragment_set_payment"/>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.jeuxdevelopers.superchat.fragments.others.chat.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" >
+        <action
+            android:id="@+id/action_chatFragment_to_buyCreditFragment"
+            app:destination="@id/buyCreditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/otherProfileFragment"
+        android:name="com.jeuxdevelopers.superchat.fragments.others.OtherProfileFragment"
+        android:label="OtherProfileFragment"
+        tools:layout="@layout/fragment_other_profile">
+        <action
+            android:id="@+id/action_otherProfileFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.jeuxdevelopers.superchat.fragments.others.editprofile.EditProfileFragment"
+        android:label="EditProfileFragment"
+        tools:layout="@layout/edit_profile_fragment"/>
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.jeuxdevelopers.superchat.fragments.info.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/privacyPolicyFragment"
+        android:name="com.jeuxdevelopers.superchat.fragments.info.PrivacyPolicyFragment"
+        android:label="fragment_privacy_policy"
+        tools:layout="@layout/fragment_privacy_policy" />
+    <fragment
+        android:id="@+id/termsOfUseFragment"
+        android:name="com.jeuxdevelopers.superchat.fragments.info.TermsOfUseFragment"
+        android:label="fragment_terms_of_use"
+        tools:layout="@layout/fragment_terms_of_use" />
+</navigation>

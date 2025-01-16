@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:cardCornerRadius="@dimen/_4sdp"
+            app:cardBackgroundColor="@color/colorWhite"
+            android:layout_margin="@dimen/_16sdp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_8sdp">
+                <TextView
+                    android:id="@+id/tvStatusLoading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:layout_toRightOf="@id/pbWait"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="@dimen/_14ssp"
+                    android:layout_marginLeft="@dimen/_12sdp"
+                    android:textFontWeight="600"
+                    android:text="Status of loading"
+                    tools:ignore="UnusedAttribute" />
+                <ProgressBar
+                    android:id="@+id/pbWait"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_centerVertical="true"
+                    android:indeterminateTint="@color/colorBlue"
+                    android:layout_marginTop="@dimen/_12sdp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack_45"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textFontWeight="600"
+                    android:layout_toRightOf="@id/pbWait"
+                    android:layout_marginLeft="@dimen/_12sdp"
+                    android:layout_below="@id/tvStatusLoading"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textSize="@dimen/_10ssp"
+                    android:text="@string/loading" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</layout>
