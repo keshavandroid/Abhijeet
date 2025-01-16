@@ -24,14 +24,13 @@
                 android:text="@string/inbox"
                 android:textColor="@color/colorBlack"
                 android:fontFamily="sans-serif-condensed"/>
-            <ImageButton
+            <ImageView
                 android:id="@+id/btnSettings"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/ic_settings"
-                android:background="?actionBarItemBackground"
+                android:src="@drawable/setting"
                 android:contentDescription="@string/settings" />
         </RelativeLayout>
         <androidx.recyclerview.widget.RecyclerView
