@@ -1,0 +1,458 @@
+[
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/font_roboto_light.ttf.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/font/roboto_light.ttf"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_bg_btn_alpha.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/bg_btn_alpha.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_bottom_dialog_rate.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/bottom_dialog_rate.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_camera_blue.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_camera_blue.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/color_interest_stroke_color.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/color/interest_stroke_color.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_add.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_fragment_set_payment.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_set_payment.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_bg_chat_right_item.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/bg_chat_right_item.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_mail.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_mail.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_fragment_buy_credit.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_buy_credit.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_google_pay.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_google_pay.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_fragment_home.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_dialog_waiting.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/dialog_waiting.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_settings_wrench.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_settings_wrench.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xhdpi_ic_launcher_app_round.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xhdpi/ic_launcher_app_round.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/font_roboto_bold.ttf.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/font/roboto_bold.ttf"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_age_blue.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_age_blue.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/font_roboto_medium.ttf.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/font/roboto_medium.ttf"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_item_home_user.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/item_home_user.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_search.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_set_price_dialog.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/set_price_dialog.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_age.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_age.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_fragment_chat.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_fragment_terms_of_use.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_terms_of_use.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_fragment_help.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_help.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-mdpi_ic_launcher_app_foreground.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-mdpi/ic_launcher_app_foreground.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_gender.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_gender.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_img_logo.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/img_logo.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_gender_blue.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_gender_blue.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_activity_splash.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/color_interest_background.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/color/interest_background.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_calendar.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_calendar.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_bg_chat_left_item.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/bg_chat_left_item.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_fragment_login.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_settings.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_close.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_emojies.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_emojies.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_camera_add.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_camera_add.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher_app.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xxxhdpi/ic_launcher_app.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_activity_authentication.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/activity_authentication.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_person.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_fragment_other_profile.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_other_profile.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_activity_main.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_bg_edit_text.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/bg_edit_text.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher_app_foreground.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xxxhdpi/ic_launcher_app_foreground.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-hdpi_ic_launcher_app.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-hdpi/ic_launcher_app.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_spinner_item.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/spinner_item.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_item_inbox.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/item_inbox.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_send.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_send.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_mail_box.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_mail_box.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-hdpi_ic_launcher_app_round.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-hdpi/ic_launcher_app_round.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_edit_profile_fragment.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/edit_profile_fragment.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_bg_search.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/bg_search.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xxhdpi_ic_launcher_app_foreground.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xxhdpi/ic_launcher_app_foreground.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_calendar_blue.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_calendar_blue.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher_app_round.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xxxhdpi/ic_launcher_app_round.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/menu_main_bottom_nav_menu.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/menu/main_bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_phone.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xxhdpi_ic_launcher_app.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xxhdpi/ic_launcher_app.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/font_brush_script_std.ttf.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/font/brush_script_std.ttf"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_fragment_inbox.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_inbox.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xhdpi_ic_launcher_app_foreground.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xhdpi/ic_launcher_app_foreground.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_fragment_settings.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xxhdpi_ic_launcher_app_round.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xxhdpi/ic_launcher_app_round.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_white_top_round_48.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/white_top_round_48.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-mdpi_ic_launcher_app_round.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-mdpi/ic_launcher_app_round.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_bg_msg_count.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/bg_msg_count.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_spinner_drop_down_item.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/spinner_drop_down_item.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_red_round_4.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/red_round_4.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_fragment_profile.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_google_g.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_google_g.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_inbox.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_inbox.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_item_interest.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/item_interest.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_item_chat.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/item_chat.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-anydpi-v26_ic_launcher_app_round.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-anydpi-v26/ic_launcher_app_round.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/navigation_main_navigation.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/navigation/main_navigation.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/color_interest_text_color.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/color/interest_text_color.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/font_roboto_regular.ttf.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/font/roboto_regular.ttf"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xhdpi_ic_launcher_app.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xhdpi/ic_launcher_app.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_dot.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_dot.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_badge_layout.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/badge_layout.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_home.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_fragment_sign_up.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_sign_up.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_user.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_user.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_placeholder.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_placeholder.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_metro_dollar.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_metro_dollar.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-anydpi-v26_ic_launcher_app.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-anydpi-v26/ic_launcher_app.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/navigation_auth_navigation.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/navigation/auth_navigation.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/color_bottom_nav_icon_color.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/color/bottom_nav_icon_color.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_fragment_interests.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_interests.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-hdpi_ic_launcher_app_foreground.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-hdpi/ic_launcher_app_foreground.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_location.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_bg_blur_white.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/bg_blur_white.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/mipmap-mdpi_ic_launcher_app.png.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/mipmap-mdpi/ic_launcher_app.png"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_fragment_privacy_policy.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_privacy_policy.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_lock.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_google.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_google.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable_ic_web.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/drawable/ic_web.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/layout_dialog_buy_credit_from_balance.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/dialog_buy_credit_from_balance.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-merged_res-6:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.jeuxdevelopers.superchat.app-pngs-1:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    }
+]

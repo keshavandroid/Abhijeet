@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">438404227884-n7e6bf61bviq4nvp1td59hfnp521ep0k.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">438404227884</string>
+    <string name="google_api_key" translatable="false">AIzaSyB5LFlHm9E2sseFCCfAJM8FMXQB0w7I0jk</string>
+    <string name="google_app_id" translatable="false">1:438404227884:android:6e722ff285a04313754289</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB5LFlHm9E2sseFCCfAJM8FMXQB0w7I0jk</string>
+    <string name="google_storage_bucket" translatable="false">superchat-e60f6.appspot.com</string>
+    <string name="project_id" translatable="false">superchat-e60f6</string>
+</resources>
