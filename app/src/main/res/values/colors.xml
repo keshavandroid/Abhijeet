@@ -5,15 +5,20 @@
     <color name="colorBlue_08">#145271FF</color>
     <color name="colorWhiteBg">#F6F6F6</color>
     <color name="colorBlack">#363636</color>
+    <color name="colorBlack1">#212121</color>
     <color name="colorBlack_45">#73363636</color>
     <color name="colorWhite">#FFFFFFFF</color>
     <color name="colorGray">#C6C8C7</color>
     <color name="colorBlueVeryLight">#E3E8F1</color>
     <color name="colorGreen_05">#0D006665</color>
+    <color name="colorWhiteChat">#F2F7FB</color>
     <color name="colorGrayDark">#828282</color>
     <color name="colorYellow">#FFCC22</color>
+    <color name="colorOrange">#FEB01D</color>
     <color name="colorRed">#F33E31</color>
     <color name="colorgrey">#EDF1F3</color>
+    <color name="colorHeader">#E5E2D5</color>
+    <color name="colorback">#737373</color>
 
     <color name="cardBackground">#F6F6F6</color>
 

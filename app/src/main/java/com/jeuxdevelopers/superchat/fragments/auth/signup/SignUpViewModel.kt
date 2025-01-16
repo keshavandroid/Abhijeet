@@ -2,6 +2,7 @@ package com.jeuxdevelopers.superchat.fragments.auth.signup
 
 import android.content.Context
 import android.util.Patterns
+import android.widget.EditText
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -36,18 +37,18 @@ class SignUpViewModel : ViewModel() {
 
 
     // validation of inputs
-    class Validation(var status: Boolean, var inputView: TextInputLayout?, var message: String)
+    class Validation(var status: Boolean, var inputView: EditText?, var message: String)
 
     private val _validated = MutableLiveData(Validation(false, null, "Empty"))
     val isValidated: LiveData<Validation> get() = _validated
     fun validateInputs(
-        inputName: TextInputLayout,
-        inputEmail: TextInputLayout,
-        inputPassword: TextInputLayout
+        inputName: EditText,
+        inputEmail: EditText,
+        inputPassword: EditText
     ) {
-        val name = inputName.editText?.text.toString()
-        val email = inputEmail.editText?.text.toString()
-        val password = inputPassword.editText?.text.toString()
+        val name = inputName?.text.toString()
+        val email = inputEmail?.text.toString()
+        val password = inputPassword?.text.toString()
         inputName.error = null
         inputEmail.error = null
         inputPassword.error = null

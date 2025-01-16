@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <gradient
         android:angle="360"
-        android:startColor="#4FFFFFFF"
+        android:startColor="#8FFFFFFF"
         android:centerColor="#8FFFFFFF"
         android:endColor="@color/colorWhite"/>
     <stroke android:color="@color/colorWhite"

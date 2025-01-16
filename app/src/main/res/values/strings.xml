@@ -11,8 +11,8 @@
     <string name="signup">Sign Up</string>
     <string name="full_name">Full name</string>
     <string name="create">Create</string>
-    <string name="have_account">Have any account?</string>
-    <string name="sign_in">Sign In</string>
+    <string name="have_account">Already Have an account?</string>
+    <string name="sign_in">Login</string>
     <string name="join_date">Join Date</string>
     <string name="gender">Gender</string>
     <string name="age">Age</string>

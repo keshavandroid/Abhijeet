@@ -13,6 +13,8 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.core.ActivityScope
 import com.google.firebase.ktx.Firebase
 import com.jeuxdevelopers.superchat.databinding.ActivitySplashBinding
+import com.jeuxdevelopers.superchat.databinding.FragmentLogin1Binding
+import com.jeuxdevelopers.superchat.databinding.FragmentLoginBinding
 import com.jeuxdevelopers.superchat.utils.MyPreferences
 import com.vanniktech.emoji.EmojiManager
 import com.vanniktech.emoji.ios.IosEmojiProvider
