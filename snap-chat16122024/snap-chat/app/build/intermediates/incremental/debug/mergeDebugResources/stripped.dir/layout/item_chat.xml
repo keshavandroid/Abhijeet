@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/chatLeftItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cvProfileLeft"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@drawable/ic_user"
+            app:civ_circle_background_color="@color/colorBlack"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/frame_msg_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_52sdp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/cvProfileLeft"
+            app:layout_constraintTop_toBottomOf="@id/cvProfileLeft"
+            app:layout_constraintWidth_default="wrap">
+
+            <com.vanniktech.emoji.EmojiTextView
+                android:id="@+id/tvMessageLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_chat_left_item"
+                android:fontFamily="@font/roboto_regular"
+                android:maxLines="2"
+                android:padding="@dimen/_12sdp"
+                android:textSize="@dimen/_11ssp"
+                android:visibility="gone"
+                tools:text="@tools:sample/lorem/random" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardImageLeft"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:cardCornerRadius="@dimen/_6sdp"
+                app:layout_constraintTop_toBottomOf="@id/tvMessageLeft">
+
+                <ImageView
+                    android:id="@+id/ivLeft"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/app_name"
+                    android:src="@color/colorBlack" />
+            </androidx.cardview.widget.CardView>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvTimeLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="@dimen/_8ssp"
+            app:layout_constraintEnd_toEndOf="@id/frame_msg_left"
+            app:layout_constraintTop_toBottomOf="@id/frame_msg_left"
+            tools:text="@tools:sample/date/hhmm" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/chat_right_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout
+            android:id="@+id/frame_msg_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_52sdp"
+            android:visibility="visible"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_default="wrap">
+
+            <com.vanniktech.emoji.EmojiTextView
+                android:id="@+id/tvMessageRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_chat_right_item"
+                android:fontFamily="@font/roboto_regular"
+                android:maxLines="2"
+                android:padding="@dimen/_12sdp"
+                android:textSize="@dimen/_11ssp"
+                android:textColor="@color/colorWhite"
+                android:visibility="visible"
+                tools:text="@tools:sample/lorem/random" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardImageRight"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:cardCornerRadius="@dimen/_6sdp"
+                app:layout_constraintTop_toBottomOf="@id/tvMessageLeft">
+
+                <ImageView
+                    android:id="@+id/ivRight"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/app_name"
+                    android:src="@color/colorBlack" />
+            </androidx.cardview.widget.CardView>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/tvTimeRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="@dimen/_8ssp"
+            app:layout_constraintStart_toStartOf="@id/frame_msg_right"
+            app:layout_constraintTop_toBottomOf="@id/frame_msg_right"
+            tools:text="@tools:sample/date/hhmm" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

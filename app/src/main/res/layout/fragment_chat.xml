@@ -64,6 +64,7 @@
         android:id="@+id/recyclerChat"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:background="@drawable/bg_chat"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toTopOf="@id/linearwords"
         app:layout_constraintEnd_toEndOf="parent"
@@ -89,92 +90,117 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/_5sdp"
             android:fontFamily="@font/roboto_medium"
             android:textColor="@color/colorback"
             android:textSize="@dimen/_11ssp"
-            tools:text="10Rs/word"
-            android:layout_marginStart="@dimen/_5sdp"/>
+            tools:text="10Rs/word" />
 
         <TextView
             android:id="@+id/tvwords1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/_5sdp"
             android:fontFamily="@font/roboto_medium"
             android:textColor="@color/colorback"
             android:textSize="@dimen/_11ssp"
-            tools:text="1000Rs"
-            android:layout_marginEnd="@dimen/_5sdp"/>
+            tools:text="1000Rs" />
     </RelativeLayout>
 
-    <androidx.cardview.widget.CardView
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:id="@+id/cardBottom"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="@dimen/_12sdp"-->
+    <!--        app:cardBackgroundColor="@color/colorWhite"-->
+    <!--        app:cardCornerRadius="@dimen/_24sdp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent">-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cardBottom"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_12sdp"
-        app:cardBackgroundColor="@color/colorWhite"
-        app:cardCornerRadius="@dimen/_24sdp"
+        android:padding="@dimen/_2sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
+        <ImageButton
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="@dimen/_2sdp">
+            android:layout_marginTop="@dimen/_4sdp"
+            android:background="?actionBarItemBackground"
+            android:src="@drawable/ic_send"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageButton
-                android:id="@+id/btnSend"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_4sdp"
-                android:background="?actionBarItemBackground"
-                android:src="@drawable/ic_send"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+        <com.vanniktech.emoji.EmojiImageView
+            android:id="@+id/btnEmoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:background="?actionBarItemBackground"
+            android:src="@drawable/ic_emojies"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnSend"
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <com.vanniktech.emoji.EmojiImageView
-                android:id="@+id/btnEmoji"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/_4sdp"
-                android:background="?actionBarItemBackground"
-                android:src="@drawable/ic_emojies"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@id/btnSend"
-                app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton
+            android:id="@+id/btnCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:background="?actionBarItemBackground"
+            android:src="@drawable/ic_camera_blue"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnEmoji"
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageButton
-                android:id="@+id/btnCamera"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/_8sdp"
-                android:background="?actionBarItemBackground"
-                android:src="@drawable/ic_camera_blue"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@id/btnEmoji"
-                app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_search"
+            android:backgroundTint="@color/colortextarea"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="@string/type_message"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorGray"
+            android:textSize="@dimen/_12ssp"
+            android:padding="@dimen/_5sdp"
+            android:layout_margin="@dimen/_8sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnCamera"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-            <com.vanniktech.emoji.EmojiEditText
-                android:id="@+id/et_message"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:background="@null"
-                android:fontFamily="@font/roboto_regular"
-                android:hint="@string/type_message"
-                android:inputType="textMultiLine"
-                android:maxLines="3"
-                android:paddingStart="@dimen/_16sdp"
-                android:paddingRight="@dimen/_12sdp"
-                android:scrollbars="vertical"
-                android:textColor="@color/colorBlack"
-                android:textColorHint="@color/colorGray"
-                android:textSize="@dimen/_10ssp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@id/btnCamera"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
+        </EditText>
+        <!--        <com.vanniktech.emoji.EmojiEditText-->
+        <!--            android:id="@+id/et_message"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:background="@drawable/bg_search"-->
+        <!--            android:backgroundTint="@color/colortextarea"-->
+        <!--            android:fontFamily="@font/roboto_regular"-->
+        <!--            android:hint="@string/type_message"-->
+        <!--            android:inputType="textMultiLine"-->
+        <!--            android:paddingStart="@dimen/_5sdp"-->
+        <!--            android:paddingEnd="@dimen/_5sdp"-->
+        <!--            android:scrollbars="vertical"-->
+        <!--            android:textColor="@color/colorBlack"-->
+        <!--            android:textColorHint="@color/colorGray"-->
+        <!--            android:textSize="@dimen/_10ssp"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toStartOf="@id/btnCamera"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            android:visibility="visible"/>-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!--    </androidx.cardview.widget.CardView>-->
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+com.jeuxdevelopers.superchat.test.app-androidTest-0 C:\Kinnari\Abhijeet\Repo\SuperChat\snap-chat16122024\snap-chat\app\build\generated\res\resValues\androidTest\debug
+com.jeuxdevelopers.superchat.test.app-androidTest-1 C:\Kinnari\Abhijeet\Repo\SuperChat\snap-chat16122024\snap-chat\app\build\generated\res\rs\androidTest\debug
+com.jeuxdevelopers.superchat.test.app-mergeDebugAndroidTestResources-2 C:\Kinnari\Abhijeet\Repo\SuperChat\snap-chat16122024\snap-chat\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.jeuxdevelopers.superchat.test.app-mergeDebugAndroidTestResources-3 C:\Kinnari\Abhijeet\Repo\SuperChat\snap-chat16122024\snap-chat\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.jeuxdevelopers.superchat.test.app-merged_res-4 C:\Kinnari\Abhijeet\Repo\SuperChat\snap-chat16122024\snap-chat\app\build\intermediates\merged_res\debugAndroidTest

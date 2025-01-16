@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/fragment_home.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/fragment_buy_credit.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_buy_credit.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/spinner_item.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/spinner_item.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/item_chat.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/item_chat.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/dialog_waiting.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/dialog_waiting.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/dialog_buy_credit_from_balance.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/dialog_buy_credit_from_balance.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/fragment_sign_up.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_sign_up.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/fragment_inbox.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_inbox.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/fragment_other_profile.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_other_profile.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/item_home_user.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/item_home_user.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/spinner_drop_down_item.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/spinner_drop_down_item.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/item_inbox.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/item_inbox.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/fragment_interests.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_interests.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/set_price_dialog.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/set_price_dialog.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/item_interest.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/item_interest.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/fragment_set_payment.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_set_payment.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/activity_splash.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/bottom_dialog_rate.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/bottom_dialog_rate.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/fragment_login.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/fragment_terms_of_use.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_terms_of_use.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/edit_profile_fragment.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/edit_profile_fragment.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/fragment_chat.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/activity_main.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/badge_layout.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/badge_layout.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/fragment_settings.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/fragment_privacy_policy.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_privacy_policy.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/activity_authentication.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/activity_authentication.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/fragment_profile.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.jeuxdevelopers.superchat.app-mergeDebugResources-5:/layout/fragment_help.xml",
+        "source": "com.jeuxdevelopers.superchat.app-main-8:/layout/fragment_help.xml"
+    }
+]
