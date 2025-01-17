@@ -2,6 +2,7 @@ package com.jeuxdevelopers.superchat.fragments.auth.login
 
 import android.content.Context
 import android.util.Patterns
+import android.widget.EditText
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -30,16 +31,16 @@ class LoginViewModel : ViewModel() {
     val isWaiting: LiveData<WaitingState> get() = _waiteState
 
     // validation of inputs
-    class Validation(var status: Boolean, var inputView: TextInputLayout?, var message: String)
+    class Validation(var status: Boolean, var inputView: EditText?, var message: String)
 
     private val _validated = MutableLiveData(Validation(false, null, "Empty"))
     val isValidated: LiveData<Validation> get() = _validated
     fun validateInputs(
-        inputEmail: TextInputLayout,
-        inputPassword: TextInputLayout
+        inputEmail: EditText,
+        inputPassword: EditText
     ) {
-        val email = inputEmail.editText?.text.toString()
-        val password = inputPassword.editText?.text.toString()
+        val email = inputEmail?.text.toString()
+        val password = inputPassword?.text.toString()
         inputEmail.error = null
         inputPassword.error = null
         if (email.isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(email).matches()) {

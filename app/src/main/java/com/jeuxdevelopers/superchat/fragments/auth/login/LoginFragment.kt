@@ -13,6 +13,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.common.api.ApiException
 import com.jeuxdevelopers.superchat.activities.MainActivity
+import com.jeuxdevelopers.superchat.databinding.FragmentLogin1Binding
 import com.jeuxdevelopers.superchat.databinding.FragmentLoginBinding
 import com.jeuxdevelopers.superchat.dialogs.WaitingDialog
 import com.jeuxdevelopers.superchat.interfaces.AuthNavigationListener
@@ -23,7 +24,7 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 
 class LoginFragment : Fragment() {
-    private lateinit var binding: FragmentLoginBinding
+    private lateinit var binding: FragmentLogin1Binding
     private lateinit var navigationListener: AuthNavigationListener
     private lateinit var viewModel: LoginViewModel
     private lateinit var waitingDialog: WaitingDialog
@@ -35,7 +36,7 @@ class LoginFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        binding = FragmentLoginBinding.inflate(inflater, container, false)
+        binding = FragmentLogin1Binding.inflate(inflater, container, false)
         init()
         return binding.root
     }

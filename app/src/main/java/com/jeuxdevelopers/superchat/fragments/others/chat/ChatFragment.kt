@@ -56,7 +56,7 @@ class ChatFragment : Fragment() {
         viewModel.setChatRepository(otherUserId, MyPreferences(requireContext()))
         viewModel.setChatRates(otherUserId)
         waitingDialog = WaitingDialog(requireContext())
-        emojiPopup = EmojiPopup.Builder.fromRootView(binding.root).build(binding.etMessage)
+   //     emojiPopup = EmojiPopup.Builder.fromRootView(binding.root).build(binding.etMessage)
         initViews()
         initClickListeners()
         initObservers()
