@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorWhite"
     tools:context=".fragments.others.chat.ChatFragment">
 
     <LinearLayout
@@ -164,17 +165,20 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
+            android:id="@+id/et_message"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_search"
+            android:background="@drawable/bg_edit_text"
             android:backgroundTint="@color/colortextarea"
             android:fontFamily="@font/roboto_regular"
             android:hint="@string/type_message"
             android:textColor="@color/colorBlack"
             android:textColorHint="@color/colorGray"
             android:textSize="@dimen/_12ssp"
-            android:padding="@dimen/_5sdp"
-            android:layout_margin="@dimen/_8sdp"
+            android:paddingHorizontal="@dimen/_15sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_28sdp"
+            android:layout_marginVertical="@dimen/_10sdp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/btnCamera"
             app:layout_constraintStart_toStartOf="parent"

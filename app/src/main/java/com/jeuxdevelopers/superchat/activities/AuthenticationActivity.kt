@@ -6,12 +6,14 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.jeuxdevelopers.superchat.R
 import com.jeuxdevelopers.superchat.databinding.ActivityAuthenticationBinding
+import com.jeuxdevelopers.superchat.databinding.FragmentLogin1Binding
 import com.jeuxdevelopers.superchat.interfaces.AuthNavigationListener
 import com.jeuxdevelopers.superchat.models.UserModel
 import com.jeuxdevelopers.superchat.utils.Constants
 
 class AuthenticationActivity : AppCompatActivity(), AuthNavigationListener {
     private lateinit var binding: ActivityAuthenticationBinding
+ //   private lateinit var binding: FragmentLogin1Binding
     private lateinit var navController: NavController
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,8 +23,7 @@ class AuthenticationActivity : AppCompatActivity(), AuthNavigationListener {
     }
 
     private fun init() {
-        val navHostFragment =
-            supportFragmentManager.findFragmentById(R.id.auth_fragment_container) as NavHostFragment
+        val navHostFragment = supportFragmentManager.findFragmentById(R.id.auth_fragment_container) as NavHostFragment
         navController = navHostFragment.navController
     }
 

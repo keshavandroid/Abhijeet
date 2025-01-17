@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fillViewport="true"
     android:scrollbars="none"
     tools:context=".fragments.main.inbox.InboxFragment">
@@ -11,36 +11,75 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="@dimen/_16sdp">
+        android:background="@color/colorchatback"
+        android:orientation="vertical">
+
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="?actionBarSize">
+            android:layout_height="?actionBarSize"
+            android:padding="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/btnSearch"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/settings"
+                android:src="@drawable/search" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:textSize="@dimen/_16ssp"
-                android:text="@string/inbox"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Chat"
                 android:textColor="@color/colorBlack"
-                android:fontFamily="sans-serif-condensed"/>
+                android:textSize="@dimen/_16ssp" />
+
             <ImageView
                 android:id="@+id/btnSettings"
                 android:layout_width="@dimen/_20sdp"
                 android:layout_height="@dimen/_20sdp"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/setting"
-                android:contentDescription="@string/settings" />
+                android:contentDescription="@string/settings"
+                android:src="@drawable/setting" />
         </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Available Balance : "
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text=" 360 INR"
+                android:textColor="@color/colorOrange"
+                android:textSize="@dimen/_12ssp" />
+        </LinearLayout>
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerInbox"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/bg_chat_white_rounded"
+            android:padding="@dimen/_10sdp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             tools:itemCount="5"
-            tools:listitem="@layout/item_inbox"/>
+            tools:listitem="@layout/item_inbox" />
     </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

@@ -48,7 +48,7 @@
     <string name="credit_descrip">You can see your remaining amount here or  you can also buy.</string>
     <string name="max_limit">*10,000$ maximum</string>
     <string name="buy">Buy</string>
-    <string name="type_message">Type a message...</string>
+    <string name="type_message">Write your message...</string>
     <string name="loading">Please wait...</string>
     <string name="server_client_id">438404227884-ce1hvfg4r9le809u4c61jt3argj1va9j.apps.googleusercontent.com</string>
     <string name="message">Message</string>
@@ -84,4 +84,5 @@
     <string name="_70">70$</string>
     <string name="_120">120$</string>
     <string name="your_credit">Your Credit</string>
+    <string name="_0">0 To 100 Character</string>
 </resources>
