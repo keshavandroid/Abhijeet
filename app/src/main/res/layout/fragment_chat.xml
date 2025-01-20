@@ -14,7 +14,7 @@
         android:background="@color/colorHeader"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:paddingVertical="@dimen/_10sdp"
+        android:paddingVertical="@dimen/_15sdp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -46,7 +46,7 @@
                 android:fontFamily="@font/roboto_medium"
                 android:textColor="@color/colorBlack1"
                 android:textSize="@dimen/_14ssp"
-                tools:text="@tools:sample/full_names" />
+                tools:text="Edward Page" />
 
             <TextView
                 android:id="@+id/tvStatus"

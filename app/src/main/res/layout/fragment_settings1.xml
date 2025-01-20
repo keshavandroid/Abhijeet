@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    tools:context=".fragments.others.settings.SettingsFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/bg"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_300sdp"
+                android:background="@color/colorBlack1"
+                android:scaleType="fitXY"
+                android:src="@drawable/setting_bg" />
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/ic_back"
+                app:tint="@color/colorback" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/userImage"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_below="@+id/btnBack"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/hqdefault">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userImage"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Markus Tomb"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_20ssp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_200sdp"
+                android:background="@drawable/bg_chat_white_rounded">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_12sdp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:gravity="center"
+                        android:text="My Earnings"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_20ssp" />
+
+                    <TextView
+                        android:id="@+id/tvUserCoins"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/bg_edit_text"
+                        android:backgroundTint="@color/colorOrange"
+                        android:fontFamily="@font/roboto_medium"
+                        android:paddingHorizontal="@dimen/_12sdp"
+                        android:paddingVertical="@dimen/_6sdp"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/_30ssp"
+                        tools:text="1000 INR" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="@string/general"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_14ssp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
