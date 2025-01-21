@@ -6,6 +6,7 @@
     <color name="colorWhiteBg">#F6F6F6</color>
     <color name="colorBlack">#363636</color>
     <color name="colorBlack1">#212121</color>
+    <color name="colorBlack2">#000E08</color>
     <color name="colorBlack_45">#73363636</color>
     <color name="colorWhite">#FFFFFFFF</color>
     <color name="colorGray">#C6C8C7</color>
@@ -21,6 +22,7 @@
     <color name="colorback">#737373</color>
     <color name="colortextarea">#F3F6F6</color>
     <color name="colorchatback">#E5E1D2</color>
+    <color name="colorlimegreen">#32CD32</color>
 
     <color name="cardBackground">#F6F6F6</color>
 
