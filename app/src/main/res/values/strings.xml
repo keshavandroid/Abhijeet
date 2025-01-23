@@ -22,8 +22,10 @@
     <string name="settings">Settings</string>
     <string name="inbox">Inbox</string>
     <string name="profile">Profile</string>
+    <string name="lock">Settings</string>
     <string name="edit">Edit</string>
     <string name="home">Home</string>
+    <string name="discover">Discover</string>
     <string name="set_payment">Set Payment</string>
     <string name="save">Save</string>
     <string name="payment_method">Payment Method</string>
