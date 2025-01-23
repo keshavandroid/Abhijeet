@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -34,7 +34,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        >
 
         <TextView
             android:id="@+id/delete_profile_button"
@@ -63,10 +65,48 @@
 
     </View>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="Once you delete your profile, you will no longer to use this application. Before delete please withdraw your balance."
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorback"
+            android:textSize="@dimen/_14ssp"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/bg_edit_text"
+            android:backgroundTint="@color/colorRed"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Delete your profile from super chat"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_16ssp">
+
+        </TextView>
+    </LinearLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        >
 
         <TextView
             android:id="@+id/change_password_button"
@@ -89,52 +129,70 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="@dimen/_1sdp"
-        android:background="@color/colorback"></View>
+        android:background="@color/colorback">
+
+    </View>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
         android:orientation="vertical"
-        android:layout_marginTop="@dimen/_20sdp">
+        android:visibility="gone">
 
         <EditText
             android:id="@+id/oldPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_12sdp"
-            android:layout_toEndOf="@+id/imgsearch"
             android:background="@drawable/bg_edit_input"
             android:fontFamily="@font/roboto_medium"
-            android:hint="Search for users"
-            android:hintTextColor="@color/colorBlack"
+            android:hint="old password"
             android:inputType="text"
-            android:textColor="@color/colorBlack" />
+            android:paddingStart="@dimen/_10sdp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack" />
 
         <EditText
             android:id="@+id/newPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_edit_input"
-            android:hint="Search for users"
-            android:inputType="text"
-            android:fontFamily="@font/roboto_medium"
-            android:hintTextColor="@color/colorBlack"
-            android:textColor="@color/colorBlack"
+            android:layout_marginTop="@dimen/_15sdp"
             android:layout_toEndOf="@+id/imgsearch"
-            android:layout_marginStart="@dimen/_12sdp"/>
+            android:background="@drawable/bg_edit_input"
+            android:fontFamily="@font/roboto_medium"
+            android:hint="new password"
+            android:inputType="text"
+            android:paddingStart="@dimen/_10sdp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack" />
 
         <EditText
             android:id="@+id/newEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
             android:background="@drawable/bg_edit_input"
-            android:hint="Search for users"
-            android:inputType="text"
             android:fontFamily="@font/roboto_medium"
-            android:hintTextColor="@color/colorBlack"
+            android:hint="email"
+            android:inputType="text"
+            android:paddingStart="@dimen/_10sdp"
             android:textColor="@color/colorBlack"
-            android:layout_toEndOf="@+id/imgsearch"
-            android:layout_marginStart="@dimen/_12sdp"/>
+            android:textColorHint="@color/colorBlack" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/bg_edit_text"
+            android:backgroundTint="@color/colorOrange"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Submit"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_16ssp">
+
+        </TextView>
     </LinearLayout>
+
 
 </LinearLayout>

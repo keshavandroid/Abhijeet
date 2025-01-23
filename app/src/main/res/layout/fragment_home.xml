@@ -76,17 +76,15 @@
             android:visibility="gone"
             android:layout_marginHorizontal="@dimen/_16sdp" />
 
-        <GridView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerUsers"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:horizontalSpacing="@dimen/_1sdp"
-            android:numColumns="3"
-            android:stretchMode="columnWidth"
-            android:verticalSpacing="@dimen/_1sdp"
             tools:listitem="@layout/item_image"
-            android:layout_marginTop="@dimen/_10sdp"/>
+            android:layout_marginTop="@dimen/_10sdp"
+            app:spanCount="3"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"/>
     </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>
