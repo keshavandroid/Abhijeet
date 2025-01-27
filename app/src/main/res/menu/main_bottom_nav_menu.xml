@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/inboxFragment"
-        android:icon="@drawable/ic_inbox"
-        android:title="@string/inbox" />
-    <item
         android:id="@+id/homeFragment"
-        android:icon="@drawable/ic_home"
+        android:icon="@drawable/ic_home1"
         android:title="@string/home" />
     <item
+        android:id="@+id/discoverfragment"
+        android:icon="@drawable/ic_discover"
+        android:title="@string/discover" />
+    <item
+        android:id="@+id/inboxFragment"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/inbox" />
+
+    <item
         android:id="@+id/profileFragment"
-        android:icon="@drawable/ic_person"
+        android:icon="@drawable/ic_profile"
         android:title="@string/profile" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_lock"
+        android:title="@string/lock" />
 </menu>

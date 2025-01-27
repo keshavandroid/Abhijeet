@@ -45,7 +45,10 @@ class UsersRepository() {
     suspend fun getUserFromDatabaseById(userId: String): UserModel {
         return try {
             val documentSnapshot = _usersCollection.document(userId).get().await()
+            Log.e("ServerResponse=", documentSnapshot.toString())
             documentSnapshot.toObject<UserModel>()!!
+
+
         } catch (e: Exception) {
             UserModel()
         }
@@ -90,8 +93,8 @@ class UsersRepository() {
                             val newIndex = documentChange.newIndex
                             when (documentChange.type) {
                                 DocumentChange.Type.ADDED -> {
-                                    val model: UserModel =
-                                        documentChange.document.toObject(UserModel::class.java)
+                                    Log.e("agevalue=",documentChange.document.toString())
+                                    val model: UserModel = documentChange.document.toObject(UserModel::class.java)
                                     list.add(newIndex, model)
                                     adapter.notifyItemInserted(newIndex)
                                 }

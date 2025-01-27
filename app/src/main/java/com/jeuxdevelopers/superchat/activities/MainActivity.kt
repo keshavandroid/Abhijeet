@@ -126,7 +126,7 @@ class MainActivity : AppCompatActivity(), MainNavigationListener {
     }
 
 
-    @SuppressLint("PrivateResource")
+    @SuppressLint("PrivateResource", "RestrictedApi")
     private fun addBadge(position: Int) {
         // get badge container (parent)
         val bottomMenu = binding.bottomNav.getChildAt(0) as? BottomNavigationMenuView
