@@ -88,14 +88,19 @@ class UsersRepository() {
                     // Utils.showShortToast(requireContext(), "Error => ${e.localizedMessage}")
                 } else {
                     if (snapshots != null) {
+                        Log.e("snapshots=",snapshots.toString())
+
                         for (documentChange: DocumentChange in snapshots.documentChanges) {
                             val oldIndex = documentChange.oldIndex
                             val newIndex = documentChange.newIndex
                             when (documentChange.type) {
                                 DocumentChange.Type.ADDED -> {
                                     Log.e("agevalue=",documentChange.document.toString())
+
                                     val model: UserModel = documentChange.document.toObject(UserModel::class.java)
+
                                     list.add(newIndex, model)
+
                                     adapter.notifyItemInserted(newIndex)
                                 }
                                 DocumentChange.Type.MODIFIED -> {
