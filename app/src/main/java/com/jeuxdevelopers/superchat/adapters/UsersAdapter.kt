@@ -77,7 +77,7 @@ class UsersAdapter(
                 setHighlightedName(model.name)
             }
 
-            binding.tvAge.text = "Age: ${model.age}Yr"
+           // binding.tvAge.text = "Age: ${model.age}Yr"
 
             binding.root.setOnClickListener { listener.onUserSelect(model) }
 

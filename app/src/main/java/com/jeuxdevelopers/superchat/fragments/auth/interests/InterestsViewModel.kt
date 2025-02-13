@@ -75,7 +75,7 @@ class InterestsViewModel : ViewModel() {
     fun addNewUser(userModel: UserModel, context: Context) {
         userModel.joinDate = _joinDate
         userModel.gender = _gender
-        userModel.age = _age
+        //userModel.age = _age
         viewModelScope.launch {
             try {
                 _waiteState.postValue(WaitingState(true, "Adding New User"))

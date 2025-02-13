@@ -49,7 +49,7 @@ class ProfileFragment : Fragment() {
         binding.tvUserName.text = userModel.name
         binding.tvNickName.text = "@${userModel.name}"
         binding.tvGender.text = "Gender : ${userModel.gender}"
-        binding.tvAge.text = "Age : ${userModel.age}"
+      //  binding.tvAge.text = "Age : ${userModel.age}"
         binding.tvStatus.text = "(${userModel.userState.name.lowercase()})"
         binding.tvJoinDate.text = Utils.getDateFromMillis(userModel.joinDate)
         Glide.with(requireContext()).load(userModel.profileUrl)

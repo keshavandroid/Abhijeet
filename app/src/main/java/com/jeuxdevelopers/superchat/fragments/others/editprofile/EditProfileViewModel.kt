@@ -110,7 +110,7 @@ class EditProfileViewModel : ViewModel() {
             else -> {
                 _userModel.name = name
                 _userModel.gender = gender
-                _userModel.age = age.toInt()
+              //  _userModel.age = age.toInt()
                 _validated.postValue(
                     Validation(
                         true,

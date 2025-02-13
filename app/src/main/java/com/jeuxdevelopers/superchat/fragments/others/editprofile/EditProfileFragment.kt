@@ -145,7 +145,7 @@ class EditProfileFragment : Fragment() {
         Glide.with(requireContext()).load(userModel.profileUrl).into(binding.civProfile)
         binding.inputName.editText?.setText( userModel.name)
         binding.inputGender.editText?.setText( userModel.gender)
-        binding.inputAge.editText?.setText(userModel.age.toString())
+   //     binding.inputAge.editText?.setText(userModel.age.toString())
         initGenderAutoComplete()
         setInterestChipViews(Constants.getInterestsList())
     }
