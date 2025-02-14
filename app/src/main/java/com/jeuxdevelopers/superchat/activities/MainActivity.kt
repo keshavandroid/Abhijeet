@@ -71,16 +71,20 @@ class MainActivity : AppCompatActivity(), MainNavigationListener {
                 R.id.inboxFragment -> {
                     removeBadge(0)
                     removeBadge(1)
-                    removeBadge(2)
-                    addBadge(0)
+                  //  removeBadge(2)
+                    removeBadge(3)
+                    removeBadge(4)
+                    addBadge(2)
                     binding.bottomNav.visibility = View.VISIBLE
                 }
 
                 R.id.homeFragment -> {
-                    removeBadge(0)
+                    //removeBadge(0)
                     removeBadge(1)
                     removeBadge(2)
-                    addBadge(1)
+                    removeBadge(3)
+                    removeBadge(4)
+                    addBadge(0)
                     binding.bottomNav.visibility = View.VISIBLE
                 }
 
@@ -88,7 +92,9 @@ class MainActivity : AppCompatActivity(), MainNavigationListener {
                     removeBadge(0)
                     removeBadge(1)
                     removeBadge(2)
-                    addBadge(2)
+                    //removeBadge(3)
+                    removeBadge(4)
+                    addBadge(3)
                     binding.bottomNav.visibility = View.VISIBLE
                 }
                 else -> binding.bottomNav.visibility = View.VISIBLE

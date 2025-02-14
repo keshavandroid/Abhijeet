@@ -33,24 +33,43 @@
                 android:src="@drawable/ic_back"
                 app:tint="@color/colorback" />
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/imgProfile"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_90sdp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/hqdefault"
+            <RelativeLayout
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_gravity="center"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgProfile"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="@dimen/_90sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_user"
+                    android:layout_centerInParent="true" />
+
+                <ImageView
+                    android:id="@+id/btnSettings"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_40sdp"
+                    android:src="@drawable/ic_pencil" />
+            </RelativeLayout>
+
 
             <TextView
                 android:id="@+id/tvNickName"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_8sdp"
-                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_bold"
                 android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16ssp"
                 tools:text="@{userModel.name}" />
 
             <LinearLayout
@@ -92,6 +111,7 @@
                             android:textSize="@dimen/_16ssp" />
 
                         <TextView
+                            android:id="@+id/txtBio"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_regular"
@@ -145,6 +165,8 @@
                             android:textSize="@dimen/_16ssp" />
 
                         <TextView
+                            android:id="@+id/tvUsername"
+
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_regular"
@@ -198,6 +220,7 @@
                             android:textSize="@dimen/_16ssp" />
 
                         <TextView
+                            android:id="@+id/tvChatrate"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_regular"
@@ -229,11 +252,11 @@
                     android:id="@+id/linearLink"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:visibility="gone"
                     android:layout_marginBottom="@dimen/_10sdp"
-                    android:paddingHorizontal="@dimen/_10sdp">
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    android:visibility="gone">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -242,19 +265,18 @@
                         android:backgroundTint="@color/colorchatback"
                         android:fontFamily="@font/roboto_regular"
                         android:gravity="center_vertical"
+                        android:paddingHorizontal="@dimen/_30sdp"
                         android:text="www.google.com"
                         android:textColor="@color/colorBlack2"
-                        android:textSize="@dimen/_14ssp"
-                        android:paddingHorizontal="@dimen/_30sdp"
-                        />
+                        android:textSize="@dimen/_14ssp" />
 
                     <ImageView
                         android:id="@+id/imgCopy"
                         android:layout_width="@dimen/_25sdp"
                         android:layout_height="@dimen/_25sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/copy"
-                        android:layout_marginStart="@dimen/_10sdp"/>
+                        android:src="@drawable/copy" />
 
 
                 </LinearLayout>

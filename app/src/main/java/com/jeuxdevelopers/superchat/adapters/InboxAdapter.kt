@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.jeuxdevelopers.superchat.R
 import com.jeuxdevelopers.superchat.databinding.ItemInboxBinding
 import com.jeuxdevelopers.superchat.enums.MessageType
 import com.jeuxdevelopers.superchat.models.InboxModel
@@ -23,7 +24,6 @@ class InboxAdapter(val data: MutableList<InboxModel>, val context: Context, val 
         @SuppressLint("SetTextI18n")
         fun bind(model: InboxModel) {
             Log.d("InboxAdapter", "bind: ")
-            Glide.with(context).load(model.userImage).into(binding.civProfile)
             binding.tvUserName.text = model.senderName
             if (model.unReadCount > 0) {
                 binding.tvMsgCount.visibility = View.VISIBLE
@@ -51,6 +51,9 @@ class InboxAdapter(val data: MutableList<InboxModel>, val context: Context, val 
             //-----------------------
 
             binding.tvTime.text = Utils.getTimeWithLast(Utils.utcTimeToLocal(model.time))
+            binding.civProfile.setImageResource(R.drawable.hqdefault)
+
+           // Glide.with(context).load(model.userImage).into(binding.civProfile)
 
             binding.root.setOnClickListener { listener.onInboxSelect(model) }
 

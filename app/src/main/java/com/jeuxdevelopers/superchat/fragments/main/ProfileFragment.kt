@@ -13,6 +13,7 @@ import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
 import com.jeuxdevelopers.superchat.R
+import com.jeuxdevelopers.superchat.databinding.FragmentOtherProfile1Binding
 import com.jeuxdevelopers.superchat.databinding.FragmentProfileBinding
 import com.jeuxdevelopers.superchat.interfaces.MainNavigationListener
 import com.jeuxdevelopers.superchat.utils.MyPreferences
@@ -20,14 +21,14 @@ import com.jeuxdevelopers.superchat.utils.Utils
 
 
 class ProfileFragment : Fragment() {
-    private lateinit var binding: FragmentProfileBinding
+    private lateinit var binding: FragmentOtherProfile1Binding
     private lateinit var navigationListener: MainNavigationListener
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        binding = FragmentProfileBinding.inflate(inflater, container, false)
+        binding = FragmentOtherProfile1Binding.inflate(inflater, container, false)
         init()
         return binding.root
     }
@@ -40,18 +41,21 @@ class ProfileFragment : Fragment() {
 
     private fun initClickListeners() {
         binding.btnSettings.setOnClickListener { navigationListener.fromProfileFragmentToSettingsFragment() }
-        binding.btnEdit.setOnClickListener { navigationListener.fromProfileFragmentToEditProfileFragment() }
+        binding.btnSettings.setOnClickListener { navigationListener.fromProfileFragmentToEditProfileFragment() }
     }
 
     @SuppressLint("SetTextI18n")
     private fun initViews() {
         val userModel = MyPreferences(requireContext()).getCurrentUser()
-        binding.tvUserName.text = userModel.name
+        binding.tvUsername.text = userModel.name
         binding.tvNickName.text = "@${userModel.name}"
-        binding.tvGender.text = "Gender : ${userModel.gender}"
+      //  binding.tvGender.text = "Gender : ${userModel.gender}"
        // binding.tvAge.text = "Age : ${userModel.age}"
-        binding.tvStatus.text = "(${userModel.userState.name.lowercase()})"
-        binding.tvJoinDate.text = Utils.getDateFromMillis(userModel.joinDate)
+       // binding.tvStatus.text = "(${userModel.userState.name.lowercase()})"
+      //  binding.tvJoinDate.text = Utils.getDateFromMillis(userModel.joinDate)
+        binding.txtBio.text = "Gender : ${userModel.gender}"+"\n"+
+                "Joindate :  ${Utils.getDateFromMillis(userModel.joinDate)}"
+
         Glide.with(requireContext()).load(userModel.profileUrl)
             .addListener(object : RequestListener<Drawable?> {
                 override fun onLoadFailed(
@@ -60,7 +64,7 @@ class ProfileFragment : Fragment() {
                     target: Target<Drawable?>?,
                     isFirstResource: Boolean
                 ): Boolean {
-                    binding.pbLoading.visibility = View.GONE
+                //    binding.pbLoading.visibility = View.GONE
                     binding.imgProfile.setImageResource(R.drawable.ic_placeholder)
                     return false
                 }
@@ -72,7 +76,7 @@ class ProfileFragment : Fragment() {
                     dataSource: DataSource?,
                     isFirstResource: Boolean
                 ): Boolean {
-                    binding.pbLoading.visibility = View.GONE
+                 //   binding.pbLoading.visibility = View.GONE
                     return false
                 }
 

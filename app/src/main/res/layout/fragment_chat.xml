@@ -27,8 +27,8 @@
             app:tint="@color/colorback" />
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="@dimen/_30sdp"
-            android:layout_height="@dimen/_30sdp"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
             android:src="@drawable/hqdefault">
 
         </de.hdodenhof.circleimageview.CircleImageView>
@@ -94,8 +94,11 @@
             android:layout_marginStart="@dimen/_5sdp"
             android:fontFamily="@font/roboto_medium"
             android:textColor="@color/colorback"
+            tools:text="10Rs/word"
+            android:hint="10Rs/word"
+            android:textColorHint="@color/colorback"
             android:textSize="@dimen/_11ssp"
-            tools:text="10Rs/word" />
+            />
 
         <TextView
             android:id="@+id/tvwords1"
@@ -105,8 +108,11 @@
             android:layout_marginEnd="@dimen/_5sdp"
             android:fontFamily="@font/roboto_medium"
             android:textColor="@color/colorback"
+            tools:text="1000Rs"
+            android:hint="1000Rs"
+            android:textColorHint="@color/colorback"
             android:textSize="@dimen/_11ssp"
-            tools:text="1000Rs" />
+            />
     </RelativeLayout>
 
     <!--    <androidx.cardview.widget.CardView-->
