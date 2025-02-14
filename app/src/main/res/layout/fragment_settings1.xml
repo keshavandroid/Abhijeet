@@ -41,15 +41,18 @@
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/userImage"
-                    android:layout_width="@dimen/_90sdp"
-                    android:layout_height="@dimen/_90sdp"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
                     android:layout_below="@+id/btnBack"
                     android:layout_centerHorizontal="true"
-                    android:src="@drawable/hqdefault">
+                    android:src="@drawable/hqdefault"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    >
 
                 </de.hdodenhof.circleimageview.CircleImageView>
 
                 <TextView
+                    android:id="@+id/txtUsername"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/userImage"
@@ -57,12 +60,13 @@
                     android:fontFamily="@font/roboto_bold"
                     android:text="Markus Tomb"
                     android:textColor="@color/colorWhite"
-                    android:textSize="@dimen/_20ssp" />
+                    android:textSize="@dimen/_15ssp" />
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="@dimen/_200sdp"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:layout_below="@+id/txtUsername"
                     android:background="@drawable/bg_chat_white_rounded">
 
                     <LinearLayout
@@ -126,6 +130,7 @@
                                     android:textSize="@dimen/_16ssp" />
 
                                 <TextView
+                                    android:id="@+id/set_price_text"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/roboto_regular"
@@ -231,6 +236,7 @@
                                     android:textSize="@dimen/_16ssp" />
 
                                 <TextView
+                                    android:id="@+id/tvBuyCredits"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/roboto_regular"
@@ -334,6 +340,7 @@
                                     android:textSize="@dimen/_16ssp" />
 
                                 <TextView
+                                    android:id="@+id/tvPrivacy"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/roboto_regular"

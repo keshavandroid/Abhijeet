@@ -131,9 +131,13 @@ class MainActivity : AppCompatActivity(), MainNavigationListener {
         // get badge container (parent)
         val bottomMenu = binding.bottomNav.getChildAt(0) as? BottomNavigationMenuView
         val v = bottomMenu?.getChildAt(position) as? BottomNavigationItemView
+
+        if (position==0) {
+            v!!.setTitle("Home")
+        }
+
         // inflate badge from layout
-        val badge = LayoutInflater.from(this)
-            .inflate(R.layout.badge_layout, bottomMenu, false)
+        val badge = LayoutInflater.from(this).inflate(R.layout.badge_layout, bottomMenu, false)
         badge.id = position * 120
         // create badge layout parameter
         val badgeLayout: FrameLayout.LayoutParams =

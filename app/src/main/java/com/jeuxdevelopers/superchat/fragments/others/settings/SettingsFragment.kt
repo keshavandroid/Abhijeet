@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.jeuxdevelopers.superchat.activities.AuthenticationActivity
+import com.jeuxdevelopers.superchat.databinding.FragmentSettings1Binding
 import com.jeuxdevelopers.superchat.databinding.FragmentSettingsBinding
 import com.jeuxdevelopers.superchat.dialogs.SetPriceDialog
 import com.jeuxdevelopers.superchat.dialogs.WaitingDialog
@@ -27,7 +28,7 @@ class SettingsFragment : Fragment() {
 
     private lateinit var waitingDialog: WaitingDialog
 
-    private lateinit var binding: FragmentSettingsBinding
+    private lateinit var binding: FragmentSettings1Binding
 
     private lateinit var viewModel: SettingsViewModel
 
@@ -38,7 +39,7 @@ class SettingsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        binding = FragmentSettingsBinding.inflate(inflater, container, false)
+        binding = FragmentSettings1Binding.inflate(inflater, container, false)
         init()
         return binding.root
     }
@@ -59,52 +60,53 @@ class SettingsFragment : Fragment() {
         val user = MyPreferences(requireContext()).getCurrentUser()
         when (user.paymentMethod.paymentType) {
             PaymentType.NONE -> {
-                binding.tvPaymentMethod.text = Constants.UNAVAILABLE
+               // binding.tvPaymentMethod.text = Constants.UNAVAILABLE
             }
             PaymentType.PAYPAL -> {
-                binding.tvPaymentMethod.text = Constants.getPaymentTypesList()[0]
+              //  binding.tvPaymentMethod.text = Constants.getPaymentTypesList()[0]
             }
             PaymentType.BANK_TRANSFER -> {
-                binding.tvPaymentMethod.text = Constants.getPaymentTypesList()[1]
+              //  binding.tvPaymentMethod.text = Constants.getPaymentTypesList()[1]
             }
         }
 
         val userBalance = "${String.format("%.2f",user.balance)}$"
         binding.tvUserCoins.text = userBalance
-        binding.tvNameLogout.text = user.name
+        binding.txtUsername.text = user.name
+      //  binding.tvNameLogout.text = user.name
 
         val userCredit = "${String.format("%.2f",user.credit)}$"
-        binding.tvCredit.text = userCredit
+       // binding.tvCredit.text = userCredit
     }
 
     private fun initClickListeners() {
 
         binding.btnBack.setOnClickListener { requireActivity().onBackPressed() }
-        binding.btnPaymentMethod.setOnClickListener { navigationListener.fromSettingsFragmentToSetPaymentFragment() }
+      //  binding.btnPaymentMethod.setOnClickListener { navigationListener.fromSettingsFragmentToSetPaymentFragment() }
         binding.tvBuyCredits.setOnClickListener { navigationListener.fromSettingsFragmentToBuyCreditFragment() }
-        binding.btnBuyCredit.setOnClickListener { binding.tvBuyCredits.performClick() }
-        binding.tvTitleBuy.setOnClickListener { binding.tvBuyCredits.performClick() }
-        binding.tvLogout.setOnClickListener {
-            //UsersRepository().removeConnectionListener()
-            UsersRepository().updateUserConnectionState(
-                false,
-                requireContext(),
-                MyPreferences(requireContext()).getCurrentUser().userId
-            )
-            Firebase.auth.signOut()
-            MyPreferences(requireContext()).saveCurrentUser(UserModel())
-            startActivity(Intent(requireActivity(), AuthenticationActivity::class.java))
-            requireActivity().finishAffinity()
-        }
-        binding.tvNameLogout.setOnClickListener { binding.tvLogout.performClick() }
+       // binding.btnBuyCredit.setOnClickListener { binding.tvBuyCredits.performClick() }
+      //  binding.tvTitleBuy.setOnClickListener { binding.tvBuyCredits.performClick() }
+//        binding.tvLogout.setOnClickListener {
+//            //UsersRepository().removeConnectionListener()
+//            UsersRepository().updateUserConnectionState(
+//                false,
+//                requireContext(),
+//                MyPreferences(requireContext()).getCurrentUser().userId
+//            )
+//            Firebase.auth.signOut()
+//            MyPreferences(requireContext()).saveCurrentUser(UserModel())
+//            startActivity(Intent(requireActivity(), AuthenticationActivity::class.java))
+//            requireActivity().finishAffinity()
+//        }
+      //  binding.tvNameLogout.setOnClickListener { binding.tvLogout.performClick() }
 
         binding.setPriceText.setOnClickListener { showSetPriceDialog() }
 
-        binding.tvHelp.setOnClickListener { navigationListener.fromSettingsFragmentToHelpFragment() }
-        binding.tvHelp2.setOnClickListener { binding.tvHelp.performClick() }
+//        binding.tvHelp.setOnClickListener { navigationListener.fromSettingsFragmentToHelpFragment() }
+//        binding.tvHelp2.setOnClickListener { binding.tvHelp.performClick() }
 
         binding.tvPrivacy.setOnClickListener { navigationListener.fromSettingsFragmentToPrivacyPolicyFragment() }
-        binding.tvTermsOfUse.setOnClickListener { navigationListener.fromSettingsFragmentToTermsOfUseFragment() }
+      //  binding.tvTermsOfUse.setOnClickListener { navigationListener.fromSettingsFragmentToTermsOfUseFragment() }
     }
 
     private fun showSetPriceDialog() {
